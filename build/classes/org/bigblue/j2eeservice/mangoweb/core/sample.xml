@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mango>
+<view resolver="com.resolver" prefix="/WEB-INF/views" suffix="jsp"/>
+
+<controller name="com.Helloword" bindObject="com.Helloform" url="/hello">
+<forward key="success" view="success"/>
+<forward key="fail" view="fail"/>
+</controller>
+
+<controller name="com.Test" url="/test">
+<forward key="display" view="display"/>
+</controller>
+</mango>
